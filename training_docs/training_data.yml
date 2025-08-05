@@ -1,0 +1,8 @@
+- instruction: "Create deployment plan for a Node.js app with Dockerfile"
+  input: |
+    - package.json
+    - Dockerfile
+  output: |
+    Use GitHub Actions to build the app.
+    Build Docker image and push to DockerHub.
+    Deploy using Kubernetes with deployment.yaml and service.yaml.
